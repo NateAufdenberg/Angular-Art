@@ -6,8 +6,8 @@ export const ART_GAVA = [
     },
     {
         id: 'a2',
-        arty: '',
-        titleArt: ''
+        arty: '', //! put image link here
+        titleArt: '' //! put title here
     },
     {
         id: 'a3',
