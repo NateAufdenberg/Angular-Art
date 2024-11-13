@@ -2,21 +2,21 @@ export const ART_GAVA = [
     {
         id: 'a1',
         arty: '',
-        desript: ''
+        titleArt: ''
     },
     {
         id: 'a2',
         arty: '',
-        desript: ''
+        titleArt: ''
     },
     {
         id: 'a3',
         arty: '',
-        desript: ''
+        titleArt: ''
     },
     {
         id: 'a4',
         arty: '',
-        desript: ''
+        titleArt: ''
     }
 ];
