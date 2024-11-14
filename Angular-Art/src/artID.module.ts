@@ -20,3 +20,5 @@ export const ART_GAVA = [
         titleArt: ''
     }
 ];
+
+let dummyVar: number = 0;
