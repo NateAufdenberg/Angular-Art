@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    font-size: 35px;
+}
+
+img.Alpha {
+    justify-content: left;
+    width: 50%;
+    float: left;
+}
+
+.Beta {
+    width: 50%;
+    float: right;
+    justify-content: right;
+}
