@@ -6,8 +6,8 @@ export const ART_GAVA = [
     },
     {
         id: 'a2',
-        arty: '', //! put image link here
-        titleArt: '' //! put title here
+        arty: '/Assets/IMG_3068.jpg', 
+        titleArt: '' 
     },
     {
         id: 'a3',
@@ -18,7 +18,5 @@ export const ART_GAVA = [
         id: 'a4',
         arty: '',
         titleArt: ''
-    }
+    },
 ];
-
-let dummyVar: number = 0;
