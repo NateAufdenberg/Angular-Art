@@ -1,15 +1,20 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, computed, Input, input } from '@angular/core';
 
-import { ArtComponent } from './art/art.component';
+import { Art } from './arts/art.model';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ArtComponent],
+  imports: [RouterLink, RouterLinkActive, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'Art-Project';
+  art = input.required<Art>();
+
+  imagePath = computed(() => 'arts/' + this.art().arty)
+  service: any;
+
 }
