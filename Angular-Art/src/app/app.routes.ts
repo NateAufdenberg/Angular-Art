@@ -1,5 +1,5 @@
 import { Routes, } from '@angular/router';
-import { PortraitComponent } from '../portrait/portrait.component';
+import { PortraitComponent } from './portrait/portrait.component';
 import { ArtComponent } from './art/art.component';
 
 
