@@ -1,4 +1,27 @@
 .coolArt{
-    border: 1px double rgb(#008080);
+    border: 1px double rgb(#b08b08);
     box-shadow:rgb(from #bffcfb #ff8749 #52b5b5);
+}
+
+
+img {
+    width: 50%;
+    float: left;
+    margin: 20px;
+    height: 250px;
+    border: 3px solid rgb(92, 138, 171);
+    display: block;
+}
+
+
+div {
+    border: solid 2px #117ec6;
+    height: 21rem;
+}
+
+p {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }

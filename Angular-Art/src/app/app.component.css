@@ -4,13 +4,15 @@ header {
 }
 
 img.Alpha {
-    justify-content: left;
-    width: 50%;
+    width: 20%;
     float: left;
+    margin-left: 150px;
+    margin-top: 100px;
 }
 
 .Beta {
-    width: 50%;
+    width: 20%;
     float: right;
-    justify-content: right;
-}
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 2%;}
